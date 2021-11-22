@@ -1,0 +1,39 @@
+#topbar {
+    height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+    z-index: 996;
+}
+ul {
+  flex-wrap: wrap;
+  display: flex;
+}
+li {
+  list-style: none;
+  padding-left: 10px;
+  color: yellow;
+}
+body {
+  background-color: grey;
+}
+nav {
+  top: 40px;
+  height: 50px;
+}
+#contact .card:hover i,#contact .card:hover h4{
+	color: #87d37c;
+  }
+  .picas {
+    margin-bottom: 25px;
+  }
+.phone {
+  text-decoration: none;
+  color: #212529;
+}
+.carousel-inner{
+     max-height: 600px;
+}
+.carousel-caption {
+   position: absolute;
+   top:5%;
+}
